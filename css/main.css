@@ -1,0 +1,153 @@
+#top{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+#title{
+    display: flex;
+    background-color: black;
+    color:white;
+    padding-top: 40px;
+    width: 20%;
+    padding-left: 60px;
+    font-size: 20px;
+}
+
+.links{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    background-color: black;
+    color:white;
+    padding-top: 40px;
+}
+
+
+.photo1{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#picture{
+    width: 100%;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.centered1{
+    position: absolute;
+    top: 34%;
+    left: 20%;
+    font-size: 90px;
+    
+}
+
+#year{
+    display: flex;
+    justify-content: left;
+    width: 100%;
+    padding-left: 2%;
+    background-color: lightgrey;
+    border: black;
+    border-style: solid;
+    border-width: .5px;
+    color: black;
+}
+
+
+#ticket{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+#info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 18px;
+}
+
+
+#raisin{
+    width: auto;
+    height: 20vh;
+    padding-right: 50px;
+}
+
+
+#ticket-info{
+    display: flex;
+    flex-direction: column;
+    padding-right: 120px;
+}
+
+
+
+
+.button{
+    background-color: orange;
+    border: black;
+    border-style: solid;
+    border-width: .5px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display:inline-block;
+    font-size: 20px;
+    margin: 10px 2px;
+    border-radius: 2.5px;
+    cursor: pointer;
+    width: 20%;
+    height: 9vh;
+
+}
+
+.hr{
+    display: flex;
+    width: 57%;
+    align-items: center;
+    padding-left: 50%;
+    
+}
+
+
+.bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 80px;
+    
+}
+
+
+#map{
+    width: auto;
+    height: 30vh;
+    padding-right: 50px;
+}
+
+
+h3{
+    font-size: 40px;
+    align-items: flex-start;
+}
+
+p{
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
